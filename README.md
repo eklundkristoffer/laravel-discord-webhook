@@ -3,6 +3,8 @@
 ## Usage
 
 ```php
+use \Facades\Eklundkristoffer\DiscordWebhook\DiscordClient;
+
 $webhooks = [
     'mychannel.alias' => 'https://discordapp.com/api/webhooks/{webhook.id}/{webhook.token}'
 ];
